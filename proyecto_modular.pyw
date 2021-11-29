@@ -18,7 +18,7 @@ class loginn(QMainWindow):#creacion de clase
         loadUi("login.ui",self)#mandamos llamar a la interfaz login
         self.botonregistrar.clicked.connect(self.registrar)#mandamos llamar al boton registro
         self.botonprender.clicked.connect(self.prenderca)#mandamos llamar al boton prender    
-        
+
     def prenderca(self):#creamos la funcion perderca
         ruta = "C:/Users/Brand/OneDrive/Documentos/Proyecto-modular/Rostro" #ruta donde estan las fotos
         imagen = os.listdir(ruta)#creamos una lista de las carpetas
